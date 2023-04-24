@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-DO-List</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    </head>
+    <body>
+        <div class "calendar">
+            <h2>Calendario Settimanale</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Oriario</th>
+                        <th>Lunedi</th>
+                        <th>Martedi</th>
+                        <th>Mercoledi</th>
+                        <th>Giovedi</th>
+                        <th>Venerdi</th>
+                        <th>Sabato</th>
+                        <th>Domenica</th>
+                    </tr>
+                </thead>
+                <tbody id="calendar-body">
+                </tbody>
+            </table>
+        </div>
+        <hr />
+        <div class="code-da-fare">
+            <h2> Lista delle cose da fare</h2>
+            <ul>
+            </ul>
+        </div>
+        <hr />
+        <div class="aggiungi">
+        <form action="/aggiungi">
+            <h2>Aggiungi cosa vuoi fare</h2>
+            <textarea required maxlength="240" id="my-input"></textarea>
+            <input type="zext" id="time-input" data-input>
+            <select id="day-input">
+                <option value="">Seleziona il giorno</option>
+                <option value="1">Lunedi</option>
+                <option value="2">Martedi</option>
+                <option value="3">Mercoledi</option>
+                <option value="4">Giovedi</option>
+                <option value="5">Venerdi</option>
+                <option value="6">Sabato</option>
+                <option value="7">Domenica</option>
+            </select>
+            <input type="button" id="Message_written" value="Aggiungi cosa da fare">
+        </form>
+        </div>
+    <script src="scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+/* Reset some browser-specific styles */
+body, h2, ul, li, textarea, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .code-da-fare, .aggiungi {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+    max-width: 600px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="button"] {
+    display: block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #45a049;
+  }
+  
+#my-input{
+    width:80%;
+    height:100%;
+}
+
+.calendar{
+  width:100%;
+  max-width: 800px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  border:1px solid #ccc;
+  padding: 10px;
+  text-align:center;
+}
+
+thead{
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even){
+  background-color:#f9f9f9 ;
+}
